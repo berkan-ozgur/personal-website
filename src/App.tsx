@@ -1,24 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import './App.scss';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="row">
+        <div className="App">
+          <title>Berkan Özgür</title>
+          <div className="about">
+            <ul>
+              <li>
+                Berkan ÖZGÜR
+              </li>
+              <li>
+                Front-end Developer
+              </li>
+            </ul>
+          </div>
+          <a href="https://www.linkedin.com/in/berkan-ozgur/">
+            <div className="social">
+              <i className="fa-brands fa-linkedin-in"></i>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/berkan.ozgr/">
+            <div className="social">
+              <i className="fa-brands fa-instagram"></i>
+            </div>
+          </a>
+          <a href="https://github.com/berkan-ozgur/">
+            <div className="social">
+              <i className="fa-brands fa-github"></i>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
