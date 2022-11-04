@@ -15,22 +15,22 @@ function App() {
                 Front-end Developer
               </li>
             </ul>
+            <a href="https://www.linkedin.com/in/berkan-ozgur/">
+              <div className="social">
+                <i className="fa-brands fa-linkedin-in"></i>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/berkan.ozgr/">
+              <div className="social">
+                <i className="fa-brands fa-instagram"></i>
+              </div>
+            </a>
+            <a href="https://github.com/berkan-ozgur/">
+              <div className="social">
+                <i className="fa-brands fa-github"></i>
+              </div>
+            </a>
           </div>
-          <a href="https://www.linkedin.com/in/berkan-ozgur/">
-            <div className="social">
-              <i className="fa-brands fa-linkedin-in"></i>
-            </div>
-          </a>
-          <a href="https://www.instagram.com/berkan.ozgr/">
-            <div className="social">
-              <i className="fa-brands fa-instagram"></i>
-            </div>
-          </a>
-          <a href="https://github.com/berkan-ozgur/">
-            <div className="social">
-              <i className="fa-brands fa-github"></i>
-            </div>
-          </a>
         </div>
       </div>
     </div>
