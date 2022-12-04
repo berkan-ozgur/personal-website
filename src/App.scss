@@ -81,10 +81,15 @@
 
 .about{
   border: 1px solid rgb(0, 0, 0);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   border-radius: 3%;
-  background-color: black;
-  width: 600px;
-  margin: 325px auto 0px;
   text-align: center;
 }
 
