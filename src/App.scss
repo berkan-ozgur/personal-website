@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import "@fortawesome/fontawesome-free/css/all.min.css";
   @function generate-random-stars ($screen-width, $color, $density){
   
     $h-shadow: random($screen-width);
@@ -36,28 +37,33 @@
   
   #stars-group-1{
     @include stars-content(2000, #fff, 200, 1, 0);
+    position: absolute;
   }
   
   #stars-group-2{
     @include stars-content(2000, #fff, 200, 1, 0.1);
+    position: absolute;
   }
   
   #stars-group-3{
     @include stars-content(2000, #fff, 200, 1, 0.2);
+    position: absolute;
   }
   
   #stars-group-4{
     @include stars-content(2000, #fff, 200, 1, 0.3);
+    position: absolute;
   }
   
   #stars-group-5{
     @include stars-content(2000, #fff, 200, 1, 0.4);
+    position: absolute;
   }
   
   #stars-group-6{
     @include stars-content(2000, #fff, 200, 1, 0.5);
+    position: absolute;
   }
-  
   
   @keyframes glowing-stars {
       0%   {opacity: 0;}
@@ -67,7 +73,6 @@
 
 .container{
   color:white;
-  text-align: center;
   ul{
     list-style-type: none;
     font-size: 30px;
@@ -111,3 +116,19 @@
 .social:hover{
   color:rgb(185, 183, 183);
 }
+
+.navbar{
+  display: flex;
+  justify-content: end;
+  position: sticky;
+  background-color: rgba(255,255,255,0.07);
+  top: 0;
+  right: 1em;
+  a{
+    font-family: 'Pacifico';
+    color: inherit !important;
+    padding: 15px;
+    font-size: 20px;
+  }
+}
+
