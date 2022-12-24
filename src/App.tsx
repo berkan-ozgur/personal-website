@@ -2,7 +2,7 @@ import './App.scss';
 import wavingHand from './images/waving-hand_1f44b.gif'
 function App() {
   return (
-    <div className="container">
+    <><div id="stars-group-1"></div><div id="stars-group-2"></div><div id="stars-group-3"></div><div id="stars-group-4"></div><div id="stars-group-5"></div><div id="stars-group-6"></div><div className="container">
       <div className="row">
         <title>Berkan Özgür</title>
         <div className="navbar">
@@ -23,6 +23,12 @@ function App() {
             </div>
           </ul>
         </div>
+        <div id="stars-group-1"></div>
+        <div id="stars-group-2"></div>
+        <div id="stars-group-3"></div>
+        <div id="stars-group-4"></div>
+        <div id="stars-group-5"></div>
+        <div id="stars-group-6"></div>
         <div className="more-details" id="more-details">
           <ul>
             <li>
@@ -50,8 +56,8 @@ function App() {
             </li>
           </ul>
         </div>
-      </div >
-    </div >
+      </div>
+    </div></>
   );
 }
 

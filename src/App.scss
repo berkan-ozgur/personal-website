@@ -33,8 +33,6 @@
     background: #000;
   }
   
-  //Change colors for multi-colors star groups
-  
   #stars-group-1{
     @include stars-content(2000, #fff, 200, 1, 0);
     position: absolute;
@@ -85,7 +83,7 @@
 }
 
 .about{ 
-  height: 100vh;
+  height: 96vh;
   text-align: center;
   margin: auto;
   align-self: center;
@@ -119,7 +117,6 @@
   justify-content: end;
   position: absolute;
   width: 100%;
-  // background-color: rgba(255,255,255,0.07);
   top: 0;
   a{
     font-family: 'Pacifico';
@@ -153,7 +150,7 @@
 }
 
 .more-details{
-  height: 100vh;
+  height: 96vh;
   display: flex;
   align-self: center;
   justify-content: center;
